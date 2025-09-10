@@ -18,7 +18,7 @@ export const MenuItem = ({
   children,
 }: {
   setActive: (item: string) => void;
-  active: string | null;
+  active?: string | null;
   item: string;
   children?: React.ReactNode;
 }) => {

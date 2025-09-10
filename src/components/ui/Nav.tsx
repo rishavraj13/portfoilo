@@ -21,6 +21,8 @@ function Nav({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} item="Home"></MenuItem>
         <MenuItem setActive={setActive} item="About"></MenuItem>
+        <MenuItem setActive={setActive} item="Skills"></MenuItem>
+
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
